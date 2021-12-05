@@ -1,7 +1,7 @@
 import Boton from "./Boton";
 import { Link } from 'react-router-dom';
 
-const Login = () => (
+const Ingresar = () => (
     <div>
         <section className="login-block">
             <div className="container border border-secondary ">
@@ -27,7 +27,7 @@ const Login = () => (
                                 </label>
                             </div>
                             <div align="center">
-                            <Link to="/ingreso"><Boton title="Ingresar" clase="btn btn-primary m-2 "/></Link>
+                            <Link to="/UserInterno"><Boton title="Ingresar" clase="btn btn-primary m-2 "/></Link>
                             </div>
                         </form>
 
@@ -53,4 +53,4 @@ const Login = () => (
     </div>
 
 )
-export default Login;
+export default Ingresar;

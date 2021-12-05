@@ -1,5 +1,6 @@
 import Boton from "./Boton";
 import { Link } from 'react-router-dom';
+import Login1 from "./Login1";
 
 const NavBar = (props) =>{ 
 return (
@@ -28,11 +29,17 @@ return (
     </ul>
     <ul>
       <li >
-        <Link to="/Login">
-          <Boton title="Inciar Sesión" clase="btn btn-primary btn-sm m-1" />
+        <Link to="/Ingresar"> <Boton title="Inciar Sesión" clase="btn btn-primary btn-sm m-1" />
         </Link>
       </li>
     </ul>
+
+    <ul>
+      <li >
+        <Login1 />
+      </li>
+    </ul>
+
     <i className="bi bi-list mobile-nav-toggle"></i>
   </nav>
 );

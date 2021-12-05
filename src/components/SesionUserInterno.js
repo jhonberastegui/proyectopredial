@@ -1,15 +1,9 @@
-import './App.css';
-import TopBar from './components/TopBar';
-import Header from './components/Header';
-import CardConImage from './components/CardConImage';
-import Footer from './components/Footer';
+
+import CardConImage from './CardConImage';
 /* import Estado from './components/Estado';
  */
 
-
-
-
-function App5() {
+function SesionUserInterno() {
   const cardUserInterno = [
   
     {id:1,
@@ -56,8 +50,7 @@ function App5() {
   ]
   return (
     <div>
-      <TopBar />
-      <Header />
+  
       < main id="main" >
       
         <div className="ftco-section contact-section ftco-degree-bg container col-xs-12 col-sm-1 col-md-6 col-md-offset-1 mt-4 mb-4 p-3">
@@ -76,24 +69,23 @@ function App5() {
         {/*     <Estado /> */}
           </div>
           <div className="col"align="center">
-          <CardConImage cardUserInt = {cardUserInterno}  />
+          <CardConImage cardUserInt   />
            
            </div>
           <div className="col" align="center">
-          <CardConImage cardUserInt = {cardUserInterno}  />
+          <CardConImage cardUserInt   />
           
 
           </div>
           <div className="col"align="center">
-          <CardConImage cardUserInt = {cardUserInterno}  />
+          <CardConImage cardUserInt   />
           </div>
         </div>
         </div>
 
       </main >
-      <Footer />
+    
     </div >
   );
 }
-
-export default App5;
+export default SesionUserInterno;
