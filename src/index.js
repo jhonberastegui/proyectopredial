@@ -16,6 +16,7 @@ import Formulario from './components/Formulario';
 import Contactenos from './components/Contactenos';
 import Ingresar from './components/Ingresar';
 import SesionUserInterno from './components/SesionUserInterno';
+import Predios from './components/Predios';
 
 
 ReactDOM.render(
@@ -28,6 +29,7 @@ ReactDOM.render(
           <Route exact path="/Contactenos" element={<Contactenos />} />
           <Route exact path="/Ingresar" element={<Ingresar />} />
           <Route exact path="/UserInterno" element={<SesionUserInterno />} />
+          <Route exact path="/Predios" element={<Predios />} />
 
         </Routes>
       </Layout>
