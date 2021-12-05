@@ -1514,7 +1514,7 @@ proto._itemize = function( elems ) {
 
   // create new Outlayer Items for collection
   var items = [];
-  for ( var i=0; i <i temElems.length; i++ ) {
+  for ( var i=0; i < itemElems.length; i++ ) {
     var elem = itemElems[i];
     var item = new Item( elem, this );
     items.push( item );
@@ -3060,7 +3060,7 @@ var trim = String.prototype.trim ?
   proto._itemize = function() {
     var items = Outlayer.prototype._itemize.apply( this, arguments );
     // assign ID for original-order
-    for ( var i=0; i <i tems.length; i++ ) {
+    for ( var i=0; i < items.length; i++ ) {
       var item = items[i];
       item.id = this.itemGUID++;
     }
@@ -3183,7 +3183,7 @@ var trim = String.prototype.trim ?
     var test = this._getFilterTest( filter );
 
     // test each item
-    for ( var i=0; i <i tems.length; i++ ) {
+    for ( var i=0; i < items.length; i++ ) {
       var item = items[i];
       if ( item.isIgnored ) {
         continue;

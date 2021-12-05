@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function () {
+(function() {
   "use strict";
 
   /**
@@ -97,7 +97,7 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function (e) {
+  on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -106,7 +106,7 @@
   /**
    * Mobile nav dropdowns activate
    */
-  on('click', '.navbar .dropdown > a', function (e) {
+  on('click', '.navbar .dropdown > a', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
       this.nextElementSibling.classList.toggle('dropdown-active')
@@ -116,7 +116,7 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '.scrollto', function (e) {
+  on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -150,7 +150,7 @@
 
   heroCarouselItems.forEach((item, index) => {
     (index === 0) ?
-      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' className ='active'></li>" :
+    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
@@ -198,7 +198,7 @@
     new Waypoint({
       element: skilsContent,
       offset: '80%',
-      handler: function (direction) {
+      handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
@@ -220,9 +220,9 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function (e) {
+      on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function (el) {
+        portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');

@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #e96b56;
+  color: #008f1f;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e96b56;
+  background: #008f1f;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #ee8b7a;
+  background: #3175da;
   color: #fff;
 }
 .back-to-top.active {
@@ -61,13 +61,13 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #545454;
+  background: #008f1f;
   padding: 10px 0;
   font-size: 14px;
 }
 #topbar .contact-info i {
   font-style: normal;
-  color: #e96b56;
+  color: #ffffff;
 }
 #topbar .contact-info i a, #topbar .contact-info i span {
   padding-left: 5px;
@@ -78,10 +78,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #topbar .contact-info i a:hover {
-  color: #e96b56;
+  color: #ffffff;
 }
 #topbar .social-links a {
-  color: #bababa;
+  color: #ffffff;
   line-height: 0;
   transition: 0.3s;
   margin-left: 10px;
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  border-left: 8px solid #e96b56;
+  border-left: 8px solid #008f1f;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #545454;
@@ -162,10 +162,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #e96b56;
+  color: #13017a;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #e96b56;
+  background: #008f1f;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #e96b56;
+  color: #008f1f;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #545454;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #e96b56;
+  color: #008f1f;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #e96b56;
+  color: #008f1f;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #hero h2 span {
-  color: #e96b56;
+  color: #008f1f;
 }
 #hero p {
   width: 80%;
@@ -400,6 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-inner .active.carousel-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
+  
 }
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -414,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-indicators li {
   cursor: pointer;
-  background: #e96b56;
+  background: #008f1f;
   overflow: hidden;
   border: 0;
   width: 12px;
@@ -440,12 +441,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #e96b56;
-  background: #e96b56;
+  border: 2px solid #0058fc;
+  background: #0058fc;
 }
 #hero .btn-get-started:hover {
   background: transparent;
-  color: #e96b56;
+  color: #008f1f;
   text-decoration: none;
 }
 @media (max-height: 768px), (max-width: 1200px) {
@@ -505,7 +506,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e96b56;
+  background: #008f1f;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -561,7 +562,7 @@ section {
   height: 100%;
 }
 .featured .icon-box i {
-  color: #e96b56;
+  color: #008f1f;
   font-size: 42px;
   margin-bottom: 15px;
   display: block;
@@ -583,7 +584,7 @@ section {
   margin-bottom: 0;
 }
 .featured .icon-box:hover {
-  background: #e96b56;
+  background: #008f1f;
 }
 .featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p {
   color: #fff;
@@ -607,7 +608,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #e96b56;
+  color: #008f1f;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -626,7 +627,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #e96b56;
+  background: #008f1f;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -646,7 +647,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #fbe2dd;
+  background: #c7c7c7f8;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
@@ -665,17 +666,17 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  background: #e96b56;
-  border-color: #e96b56;
+  background: #008f1f;
+  border-color: #008f1f;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #e96b56;
+  color: #008f1f;
 }
 .services .icon-box:hover .icon::before {
-  background: #ef9383;
+  background: #008f1f;
 }
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
@@ -693,10 +694,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #e96b56;
+  border: 1px solid #008f1f;
 }
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e96b56;
+  background-color: #008f1f;
 }
 .clients .swiper-slide img {
   opacity: 0.5;
@@ -719,7 +720,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 30px;
-  color: #e96b56;
+  color: #008f1f;
   float: left;
   line-height: 0;
 }
@@ -822,7 +823,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #e96b56;
+  color: #008f1f;
 }
 .skills .content p:last-child {
   margin-bottom: 0;
@@ -853,7 +854,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #e96b56;
+  background-color: #008f1f;
 }
 
 /*--------------------------------------------------------------
@@ -885,7 +886,7 @@ section {
   background: #f2f2f2;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #e96b56;
+  background: #008f1f;
   color: #fff;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -975,7 +976,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -1014,10 +1015,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #e96b56;
+  border: 1px solid #008f1f;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e96b56;
+  background-color: #008f1f;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1070,7 +1071,7 @@ section {
 }
 .pricing h4 {
   font-size: 46px;
-  color: #e96b56;
+  color: #008f1f;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -1091,7 +1092,7 @@ section {
   padding-bottom: 12px;
 }
 .pricing ul i {
-  color: #e96b56;
+  color: #008f1f;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1117,14 +1118,14 @@ section {
   transition: 0.3s;
 }
 .pricing .buy-btn:hover {
-  background: #e96b56;
+  background: #008f1f;
 }
 .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
 }
 .pricing .featured .buy-btn {
-  background: #e96b56;
+  background: #008f1f;
 }
 .pricing .featured .buy-btn:hover {
   background: #ee8b7a;
@@ -1187,7 +1188,7 @@ section {
   transition: 0.3s;
 }
 .team .member .social a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .team .member .social i {
   font-size: 18px;
@@ -1205,7 +1206,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #e96b56;
+  color: #008f1f;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #fef5f4;
@@ -1276,7 +1277,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #e96b56;
+  border-color: #008f1f;
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -1285,7 +1286,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #e96b56;
+  background: #008f1f;
   border: 0;
   border-radius: 50px;
   padding: 10px 24px;
@@ -1339,7 +1340,7 @@ section {
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .blog .entry .entry-meta {
   margin-bottom: 15px;
@@ -1376,7 +1377,7 @@ section {
 }
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #e96b56;
+  background: #008f1f;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1431,7 +1432,7 @@ section {
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .blog .entry .entry-footer .cats {
   list-style: none;
@@ -1518,7 +1519,7 @@ section {
   transition: 0.3s;
 }
 .blog .blog-comments .comment h5 a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
@@ -1599,7 +1600,7 @@ section {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #e96b56;
+  background: #008f1f;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
@@ -1642,7 +1643,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #e96b56;
+  background: #008f1f;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1666,7 +1667,7 @@ section {
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
@@ -1690,7 +1691,7 @@ section {
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 .blog .sidebar .recent-posts time {
   display: block;
@@ -1720,8 +1721,8 @@ section {
 }
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #e96b56;
-  background: #e96b56;
+  border: 1px solid #008f1f;
+  background: #008f1f;
 }
 .blog .sidebar .tags ul a span {
   padding-left: 5px;
@@ -1771,7 +1772,7 @@ section {
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #e96b56;
+  background: #008f1f;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1817,7 +1818,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #e96b56;
+  background: #008f1f;
   color: #fff;
   text-decoration: none;
 }
@@ -1858,7 +1859,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #e96b56;
+  color: #008f1f;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1876,3 +1877,19 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/* Estilo hoja Login */
+.login-block{
+  background: #dcf7e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #16a81e, #03723a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eaf4f5, #dbe0fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.banner-sec{background:url(https://wmtake.ru/wp-content/uploads/2021/05/klyuch-belagroprombank-3.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.containerLogin{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#03751c; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
