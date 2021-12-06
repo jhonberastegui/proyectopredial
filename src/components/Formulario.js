@@ -85,7 +85,7 @@ class Formulario extends Component {
             <div className="container col-xs-12 col-sm-1 col-md-6 col-md-offset-1 border border-secondary mt-4 mb-4 p-5">
 
                 <div className="" align="center" >
-                    <h2>{this.props.nameForm}</h2><br />
+                    <h2>Formulario Registro Nuevo Usuario</h2><br />
                 </div>
                 <div className="row h-100 justify-content-center align-items-center" align="center">
                   <h5>Información Básica</h5>

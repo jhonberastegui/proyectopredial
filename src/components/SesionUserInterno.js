@@ -4,7 +4,7 @@ import CardConImage from './CardConImage';
  */
 
 function SesionUserInterno() {
-  const cardUserInterno = [
+  /* const cardUserInterno = [
   
     {id:1,
       image:"https://www.bayportcolombia.com/images/Noticias_2020/preguntas-comunes-sobre-impuesto-predial.jpg",
@@ -47,11 +47,12 @@ function SesionUserInterno() {
       link1: "",
       nombreLink1:"Gestionar Convenios"
     }
-  ]
+  ] */
   return (
     <div>
   
       < main id="main" >
+        <h3 className="mt-5" align="center">Bienvenido(a): <strong>USERNAME</strong> a la plataforma de gestión predial de la Gobernación de Huila</h3>
       
         <div className="ftco-section contact-section ftco-degree-bg container col-xs-12 col-sm-1 col-md-6 col-md-offset-1 mt-4 mb-4 p-3">
         <div className="row row-cols-1 row-cols-md-2 g-4">          
@@ -60,25 +61,52 @@ function SesionUserInterno() {
            image="https://www.bayportcolombia.com/images/Noticias_2020/preguntas-comunes-sobre-impuesto-predial.jpg"
            title= "imagen card predios"
            cardTitle="PREDIOS"
-           cardInformation="Registre y gestiones la información de los predios y mantenga la información actualizada"
-           link1 = "Login"
-           nombreLink1="Crear predio"
+           cardInformation="Gestione la información de los predios y mantenga la información actualizada"
+           link1 = "Contactenos"
+           nombreLink1="Crear dasd"
            link2="Login"
            nombreLink2="Gestionar Predio"
            />
         {/*     <Estado /> */}
           </div>
           <div className="col"align="center">
-          <CardConImage cardUserInt   />
+          <CardConImage
+          image= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS595AkmkxrRMXo4cu8Y1ORl6q0SWhowuioQ&usqp=CAU"
+          title= "imagen card cobros"
+          cardTitle="COBROS"
+          cardInformation="Realice todos los cobros anuales de predios registrados y genere multas o sanciones"
+          nombreLink1= "Cobro Anual"
+          link2= "Login"
+          nombreLink2="Multas o Sanciones"
+          />
            
            </div>
           <div className="col" align="center">
-          <CardConImage cardUserInt   />
+          <CardConImage 
+          image= "https://www.educaciontrespuntocero.com/wp-content/uploads/2020/09/626-978x652.jpg"
+          title="imagen card predios"
+          cardTitle="FECHAS"
+          cardInformation="Fechas de pago máximo, fechas de descuento y descuentos"
+          link1= ""
+          nombreLink1= "Gestionar Fechas"
+          link2= "Login"
+          nombreLink2= "Gestionar Descuentos"
+
+          />
           
 
           </div>
           <div className="col"align="center">
-          <CardConImage cardUserInt   />
+          <CardConImage 
+          image= "https://astros.uniovi.es/wp-content/uploads/2020/01/convenio.jpg"
+          title= "imagen card predios"
+          cardTitle= "CONVENIOS"
+          cardInformation= "Gestiones los convenios registrados en el sistema"
+          link1= ""
+          nombreLink1="Gestionar Convenios"
+          link2= ""
+          nombreLink2="Revise las solicitudes"
+          />
           </div>
         </div>
         </div>

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 const Footer = ()=>(
     <footer id="footer">
 
-        <div className="footer-newsletter">
+        <div className="footer-newsletter m-3">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
                 <h4>¡Registrarse aqui!</h4>
-                <p>Registrese son su email y mantenga su predio al día</p>
+                <p>Registrese con su email y mantenga su predio al día</p>
               </div>
               <div className="col-lg-6">
                 <form action="" method="post">
@@ -28,27 +28,27 @@ const Footer = ()=>(
                 <h4>Links de acceso</h4>
                 <ul>
                 <li>
-                    <Link to="/">
+                    <Link to="/" className="no-Decoration">
                       <i className="bx bx-chevron-right"></i> 
-                      <a href="none">Inicio</a>
+                      Inicio
                       </Link>
                       </li>
                   
                   <li>
-                    <Link to="/Login">
+                    <Link to="/Ingresar" className="no-Decoration">
                       <i className="bx bx-chevron-right"></i> 
-                      <a href="none">Iniciar Sesión</a>
+                      Iniciar Sesión
                       </Link>
                       </li>
                   <li>
-                    <Link to="/Contactenos">
+                    <Link to="/Contactenos" className="no-Decoration">
                       <i className="bx bx-chevron-right"></i> 
-                      <a href="none">Contáctenos</a>
+                      Contactenos
                       </Link>
                       </li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Team</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Trámites</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Política de privacidad</a></li>
+                  <li><i className="bx bx-chevron-right"></i> Team</li>
+                  <li><i className="bx bx-chevron-right"></i> Trámites</li>
+                  <li><i className="bx bx-chevron-right"></i> Política de privacidad</li>
                 </ul>
               </div>
 
@@ -69,11 +69,11 @@ const Footer = ()=>(
                 <h3>Gobernación de Huila</h3>
                 <p>Este es el Portal de Gestión Catastral de la Gobernación del Huila, un espacio donde usted podrá realizar en línea y encontrar información de todos los trámites y servicios que la entidad ofrece para que usted pueda mantener su impuesto predial al día.</p>
                 <div className="social-links mt-3">
-                  <a href="none" className="twitter"><i className="bx bxl-twitter"></i></a>
-                  <a href="none" className="facebook"><i className="bx bxl-facebook"></i></a>
-                  <a href="none" className="instagram"><i className="bx bxl-instagram"></i></a>
-                  <a href="none" className="google-plus"><i className="bx bxl-skype"></i></a>
-                  <a href="none" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                  <Link to ="none" className="twitter"><i className="bx bxl-twitter"></i></Link>
+                  <Link to ="none" className="facebook"><i className="bx bxl-facebook"></i></Link>
+                  <Link to ="none" className="instagram"><i className="bx bxl-instagram"></i></Link>
+                  <Link to ="none" className="google-plus"><i className="bx bxl-skype"></i></Link>
+                  <Link to ="none" className="linkedin"><i className="bx bxl-linkedin"></i></Link>
                 </div>
               </div>
 

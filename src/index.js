@@ -17,6 +17,7 @@ import Contactenos from './components/Contactenos';
 import Ingresar from './components/Ingresar';
 import SesionUserInterno from './components/SesionUserInterno';
 import Predios from './components/Predios';
+import NotFound from './components/NotFound';
 
 
 ReactDOM.render(
@@ -30,10 +31,10 @@ ReactDOM.render(
           <Route exact path="/Ingresar" element={<Ingresar />} />
           <Route exact path="/UserInterno" element={<SesionUserInterno />} />
           <Route exact path="/Predios" element={<Predios />} />
-
+          <Route path= "*" element = {<NotFound />} />        
         </Routes>
       </Layout>
-    </Router>
+    </Router> 
   </React.StrictMode>,
   document.getElementById('root')
 );
