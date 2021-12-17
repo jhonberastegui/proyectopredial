@@ -6,6 +6,7 @@ import SobreNosotros from './components/SobreNosotros';
 import ContenedorInfo from './components/ContenedorInfo';
 
 
+
 const App = () => (
   <div>
     <Carousel />

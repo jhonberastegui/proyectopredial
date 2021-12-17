@@ -1,8 +1,6 @@
 
 import React from "react";
-
-
-
+import ModalCrearPredio from './ModalCrearPredio'
 
 const Predios = (props) => (
     <div>
@@ -14,7 +12,7 @@ const Predios = (props) => (
                     <div className="well well-sm">
                         <form className="form-horizontal card p-5" method="post">
                             <fieldset className="center">
-                                <legend className="text-center header"><h2>{props.title}</h2></legend>
+                                <legend className="text-center header"><h2>CREAR PREDIOS</h2></legend>
 
                                 <div className="form-group" >
                                     <div className="col-md-12" >
@@ -66,7 +64,7 @@ const Predios = (props) => (
 
                                 <div className="form-group mt-4">
                                     <div className="col-md-12 text-center">
-                                        <button type="submit" className="btn btn-primary btn-lg">Submit</button>
+                                        <ModalCrearPredio title = "Crear Predio"/>
                                     </div>
                                 </div>
                             </fieldset>

@@ -1,10 +1,9 @@
-
 import CardConImage from './CardConImage';
 /* import Estado from './components/Estado';
  */
 
 function SesionUserInterno() {
-  /* const cardUserInterno = [
+ /*  const lista = [
   
     {id:1,
       image:"https://www.bayportcolombia.com/images/Noticias_2020/preguntas-comunes-sobre-impuesto-predial.jpg",
@@ -62,23 +61,24 @@ function SesionUserInterno() {
            title= "imagen card predios"
            cardTitle="PREDIOS"
            cardInformation="Gestione la información de los predios y mantenga la información actualizada"
-           link1 = "Contactenos"
-           nombreLink1="Crear dasd"
-           link2="Login"
+           link1 = "Predios"
+           nombreLink1="Crear Predios"
+           link2="Gestiones"
            nombreLink2="Gestionar Predio"
            />
         {/*     <Estado /> */}
           </div>
           <div className="col"align="center">
-          <CardConImage
-          image= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS595AkmkxrRMXo4cu8Y1ORl6q0SWhowuioQ&usqp=CAU"
-          title= "imagen card cobros"
-          cardTitle="COBROS"
-          cardInformation="Realice todos los cobros anuales de predios registrados y genere multas o sanciones"
-          nombreLink1= "Cobro Anual"
-          link2= "Login"
-          nombreLink2="Multas o Sanciones"
-          />
+          <CardConImage 
+           image="https://www.bayportcolombia.com/images/Noticias_2020/preguntas-comunes-sobre-impuesto-predial.jpg"
+           title= "imagen card predios"
+           cardTitle="PREDIOS"
+           cardInformation="Gestione la información de los predios y mantenga la información actualizada"
+           link1 = "Predios"
+           nombreLink1="Crear Predios"
+           link2="Gestiones"
+           nombreLink2="Gestionar Predio"
+           />
            
            </div>
           <div className="col" align="center">
@@ -89,7 +89,7 @@ function SesionUserInterno() {
           cardInformation="Fechas de pago máximo, fechas de descuento y descuentos"
           link1= ""
           nombreLink1= "Gestionar Fechas"
-          link2= "Login"
+          link2= ""
           nombreLink2= "Gestionar Descuentos"
 
           />
@@ -117,3 +117,4 @@ function SesionUserInterno() {
   );
 }
 export default SesionUserInterno;
+
