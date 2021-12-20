@@ -1,12 +1,12 @@
 
 import CardConImage from './CardConImage';
-import MenuLateralDash from './MenuLateralDash';
+/* import MenuLateralDash from './MenuLateralDash'; */
 
 function Dashboard() {
   return (
 
     <div>
-    <MenuLateralDash/>
+{/*     <MenuLateralDash/> */}
       <h1 align="center">DASHBOARD</h1> <br />
       
       <div class="container col-11">

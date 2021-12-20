@@ -5,7 +5,7 @@
 :root {
     --headerSideMenu-height: 3rem;
     --nav-width: 68px;
-    --first-color: #023835;
+    --first-color: #044b15;
     --first-color-light: #AFA5D9;
     --white-color: #F7F6FB;
     --body-font: 'Nunito', sans-serif;
@@ -19,20 +19,20 @@
     box-sizing: border-box
 }
 
-body {
+/* body {
     position: relative;
     margin: var(--headerSideMenu-height) 0 0 0;
     padding: 0 1rem;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     transition: .5s
-}
+} */
 
 a {
     text-decoration: none
 }
 
-.headerSideMenu {
+/* .headerSideMenu {
     width: 100%;
     height: var(--headerSideMenu-height);
     position: fixed;
@@ -45,26 +45,26 @@ a {
     background-color: var(--white-color);
     z-index: var(--z-fixed);
     transition: .5s
-}
+} */
 
-.headerSideMenu_toggle {
+/* .headerSideMenu_toggle {
     color: var(--first-color);
     font-size: 1.5rem;
     cursor: pointer
-}
+} */
 
-.headerSideMenu_img {
+/* .headerSideMenu_img {
     width: 35px;
     height: 35px;
     display: flex;
     justify-content: center;
     border-radius: 50%;
     overflow: hidden
-}
+} */
 
-.headerSideMenu_img img {
+/* .headerSideMenu_img img {
     width: 40px
-}
+} */
 
 .l-navbar {
     position: fixed;
