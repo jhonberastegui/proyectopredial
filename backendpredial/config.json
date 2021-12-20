@@ -1,0 +1,4 @@
+{
+    "PORT": 9000,
+    "CONNECTION_URL": "mongodb+srv://jhonberas:jjbc94525707@catastro.wqyf4.mongodb.net/catastro?retryWrites=true&w=majority"
+}
